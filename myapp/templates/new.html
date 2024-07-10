@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "css/new.css" %}">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="{% url 'index' %}">Home</a>
+            <div class="nav_menu">
+                <a href="{% url 'register' %}">Regitration</a>
+                <a href="{% url 'add_quotes' %}">Add Quotes</a>
+                <a href="{% url 'all_quotes' %}">All Quotes</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="mid">
+        <h1>This is my Intern Project  </h1>
+        <p>Exercise (1,2,4,5). included.</p>
+    </div>
+      
+
+
+    <footer><p>@copy: 2024 Your website. All rights reserver.</p>
+
+        <nav>
+            
+            <a href="#">Contact:4859978965</a>
+            <p>Address: Zone A, 304, Indraprastha Corporate, Chinar Bungalows, Prahlad Nagar, Ahmedabad, Gujarat 380015</p>
+        </nav>
+       
+    
+    </footer>
+    
+</body>
+</html>

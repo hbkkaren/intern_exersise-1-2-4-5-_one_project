@@ -1,0 +1,90 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #333; 
+    color: white; 
+}
+.navbar a {
+    color: inherit; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+footer{
+    
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.mid{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.mid .form{
+    margin-top: 20px;
+
+    width: 90vh;
+    height: 500px;
+    text-align: center;
+    
+    
+    
+}
+
+.form-group{
+
+    text-align: center;
+    margin: 50px;
+}
+
+ .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mid .output{
+    margin-top: 20px;
+    width: 90vh;
+
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+
